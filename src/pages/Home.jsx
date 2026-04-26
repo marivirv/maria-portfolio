@@ -5,8 +5,8 @@ function Home() {
   return (
     <motion.section
       className="page hero"
-      initial={{ opacity: 0, y: 40 }}
-      animate={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
     >
       <div className="hero-text">
@@ -15,8 +15,8 @@ function Home() {
         </h1>
 
         <p>
-          I am a Digital Media student focused on UX design, web design,
-          branding, and creating meaningful digital experiences.
+          Digital Media student focused on UX design, web design,
+          branding, and front-end development.
         </p>
 
         <div className="btn-group">
@@ -33,9 +33,9 @@ function Home() {
       <div className="hero-card">
         <h3>Portfolio Focus</h3>
         <p>UX/UI Design</p>
-        <p>Front-End Development</p>
+        <p>React Development</p>
         <p>Creative Branding</p>
-        <p>Responsive Web Design</p>
+        <p>Responsive Design</p>
       </div>
     </motion.section>
   );
