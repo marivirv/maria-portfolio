@@ -9,16 +9,16 @@ import "./styles.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/maria-portfolio">
       <div className="app-container">
         <Navbar />
 
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="about" element={<About />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="contact" element={<Contact />} />
           </Routes>
         </main>
 
