@@ -61,7 +61,7 @@ function Contact() {
         <div className="contact-info">
           <h2>Let’s Connect</h2>
           <p>Email: vickyrios1310@gmail.com</p>
-          <p>LinkedIn: lwww.linkedin.com/in/maria-rios-a845b0261</p>
+          <p>LinkedIn: www.linkedin.com/in/maria-rios-a845b0261</p>
           <p>GitHub: github.com/marivirv</p>
         </div>
 
